@@ -17,8 +17,8 @@ const Login = () => {
         <div className='login'>
            <div className='login-grid'>
             <div className="side-ber">
-              <h1>Globetech <br />Company Limited</h1>
-              <p>Make yourself digitalized & more effecient</p>
+              <h1>GlobeTech <br />Company Limited</h1>
+              <p>Make yourself digitalized & more Efficient</p>
               <button>
                 <Link to='/'>
                 <AiFillCaretLeft size='3rem' color='white'></AiFillCaretLeft>
@@ -28,13 +28,12 @@ const Login = () => {
             </div>
             <div className='login-form'>
                <form>
-                <h2>Wellcome</h2>
+                <h2>Welcome</h2>
                 <p>Sign in to your account </p>
-                <input type="email" placeholder='email' required/>
+                <input placeholder='Email' type="email" required/>
                 <br/>
                 <div className='password'>
-                  {pass? <input placeholder='password'type='text' required/>: <input placeholder='password'type='password' required/>}
-                {/* <input placeholder='password'type='password'/> */}
+                  {pass? <input placeholder='Password' type='text' required/>: <input placeholder='password'type='password' required/>}
                 <span onClick={changes}>
                   <AiFillEye color="black" size='2rem'></AiFillEye>
                 </span>
