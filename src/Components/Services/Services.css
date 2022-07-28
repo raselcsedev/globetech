@@ -86,7 +86,7 @@
     border: none;
 }
 
-@media (max-width:650px) {
+@media (max-width:750px) {
     .service-title h3 {
         font-size: 35px;
     }

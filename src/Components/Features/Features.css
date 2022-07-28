@@ -22,7 +22,7 @@
  color: #2F937b;
 
 }
-@media (max-width:650px) {
+@media (max-width:750px) {
     .feature .service-grid {
         display: grid;
         grid-template-columns:repeat(1,1fr);

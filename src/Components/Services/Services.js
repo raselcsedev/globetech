@@ -25,7 +25,7 @@ const Services = () => {
                     </div>
                 </div>
              <div className='service-title'>
-                <h3>Services</h3>
+                <h3>SERVICES</h3>
                 <h1>We are Provides Services to Our Clients</h1>
              </div>
              <div className='service-grid'>
@@ -33,37 +33,37 @@ const Services = () => {
                   <img src={img1} alt=""/>
                    <h2>Software Solution</h2>
                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
-                  <button>More</button>
+                  <button>MORE</button>
                 </div>
                 <div className='card'>
                   <img src={img3} alt=""/>
-                   <h2>E-commarce Solution</h2>
+                   <h2>E-Commerce Solution</h2>
                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
-                  <button>More</button>
+                  <button>MORE</button>
                 </div>
                 <div className='card'>
                   <img src={img2} alt=""/>
                    <h2>ERP Solution</h2>
                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
-                  <button>More</button>
+                  <button>MORE</button>
                 </div>
                 <div className='card'>
                   <img src={img4} alt=""/>
                    <h2>Bulk SMS Service</h2>
                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
-                  <button>More</button>
+                  <button>MORE</button>
                 </div>
                 <div className='card'>
                   <img src={img5} alt=""/>
                    <h2>Graphic Design</h2>
                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
-                  <button>More</button>
+                  <button>MORE</button>
                 </div>
                 <div className='card'>
                   <img src={img6} alt=""/>
                    <h2>Digital Marketing</h2>
                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
-                  <button>More</button>
+                  <button>MORE</button>
                 </div>
 
              </div>
