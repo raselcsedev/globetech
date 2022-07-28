@@ -195,3 +195,26 @@
     background-image: linear-gradient(to right, #C2F1FF,#5CD9FF);
     transition-duration:2s;
 }
+
+@media (max-width:750px) {
+    .home{
+        
+        height: 1600px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    
+    
+    .timer{
+        display:flex;
+        position: relative;
+        animation-name:anima1;
+        animation-duration: 3s;
+        
+        animation-direction:alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    
+}

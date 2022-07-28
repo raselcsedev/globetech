@@ -8,6 +8,7 @@ import img3 from './../../images/image3.png'
 import img4 from './../../images/bulk.png'
 import img5 from './../../images/image 5.png'
 import img6 from './../../images/image 6.png'
+import Features from '../Features/Features';
 
 const Services = () => {
     return (
@@ -25,7 +26,7 @@ const Services = () => {
                 </div>
              <div className='service-title'>
                 <h3>Services</h3>
-                <h1>We are Provides Services to Our Clints</h1>
+                <h1>We are Provides Services to Our Clients</h1>
              </div>
              <div className='service-grid'>
                 <div className='card'>
@@ -68,6 +69,7 @@ const Services = () => {
              </div>
             
         </div>
+        <Features></Features>
         
         </div>
     );

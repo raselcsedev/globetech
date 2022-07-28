@@ -1,0 +1,32 @@
+.feature{
+    background-color: #C9E8E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.feature .service-grid {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 30px;
+}
+.feature .service-title{
+    color: #2F937b;
+
+}
+.feature .card button{
+    background-color: #2F937b;
+
+}
+.feature .card h2{
+ color: #2F937b;
+
+}
+@media (max-width:650px) {
+    .feature .service-grid {
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-gap: 30px;
+    }
+    
+  }

@@ -33,7 +33,7 @@ const Login = () => {
                 <input placeholder='Email' type="email" required/>
                 <br/>
                 <div className='password'>
-                  {pass? <input placeholder='Password' type='text' required/>: <input placeholder='password'type='password' required/>}
+                  {pass? <input placeholder='Password' type='text' required/>: <input placeholder='Password'type='password' required/>}
                 <span onClick={changes}>
                   <AiFillEye color="black" size='2rem'></AiFillEye>
                 </span>
