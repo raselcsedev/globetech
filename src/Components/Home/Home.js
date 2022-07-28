@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css'
 import air from './../../images/Vector.png'
 import { GiHamburgerMenu} from 'react-icons/gi';
-// import line from './../../images/Line 4.png'
+
 const Home = () => {
     return (
         <div className='home'>
